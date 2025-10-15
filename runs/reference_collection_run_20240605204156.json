@@ -1,0 +1,1 @@
+{"TOKEN_OVERLAP_THRESHOLD": 0.2, "MIN_SENTENCE_LENGTH": 5, "BIBLE_VERSION": "King James Bible", "SHINGLE_N": 5, "SHINGLE_G": 2, "args": {"model_dir": "/data/laviniad/sermons-ir/modeling/tuned_mpnet/model.pth", "out_dir": "/data/laviniad/sermons-ir/references/", "input": "/data/corpora/congressional-record/", "device": "0", "batch_size": 64, "sample": 1000, "debug": false}}

@@ -1,0 +1,17 @@
+Answer the following as a seasoned political scientist.
+
+CONTEXT: 
+You are tasked with determining whether the speech below contains any religious themes or language, broadly construed. Do not explain your answers.
+
+TASK 1:
+For the input speech, analyze it and determine whether it has any religious terms, themes, or language. Please output "RELIGIOUS" if so and "SECULAR" if not.
+
+TASK 2:
+If the speech is religious in any way, output a list of keywords that signal this religiosity. Output this as a JSON list, where each keyword is quoted, elements are separated by commas, and the entire object is bracketed.
+
+OUTPUT FORMAT:
+Separate the outputs for TASK 1 and TASK 2 with a newline.
+
+Please think step-by-step through your reasoning before providing your final answer.
+
+SPEECH:

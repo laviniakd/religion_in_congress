@@ -1,0 +1,532 @@
+,State,District,Name,Party,Status,Religion
+0,AK,At-large,Don Young,R,Continuing,Episcopalian
+1,AK,Senator,Dan Sullivan,R,Continuing,Catholic
+2,AK,Senator,Lisa Murkowski,R,Continuing,Catholic
+3,AL,1,Jerry Carl,R,Freshman,Baptist
+4,AL,2,Barry Moore,R,Freshman,Baptist
+5,AL,3,Mike D. Rogers,R,Continuing,Baptist
+6,AL,4,Robert B. Aderholt,R,Continuing,Congregationalist
+7,AL,5,Mo Brooks,R,Continuing,Nondenominational
+8,AL,6,Gary Palmer,R,Continuing,Protestant unspecified
+9,AL,7,Terri A. Sewell,D,Continuing,Methodist
+10,AL,Senator,Richard C. Shelby,R,Continuing,Presbyterian
+11,AL,Senator,Tommy Tuberville,R,Freshman,Restorationist
+12,AR,1,Rick Crawford,R,Continuing,Baptist
+13,AR,2,French Hill,R,Continuing,Catholic
+14,AR,3,Steve Womack,R,Continuing,Baptist
+15,AR,4,Bruce Westerman,R,Continuing,Baptist
+16,AR,Senator,Tom Cotton,R,Continuing,Methodist
+17,AR,Senator,John Boozman,R,Continuing,Baptist
+18,AZ,1,Tom O'Halleran,D,Continuing,Catholic
+19,AZ,2,Ann Kirkpatrick,D,Continuing,Catholic
+20,AZ,3,Raul M. Grijalva,D,Continuing,Catholic
+21,AZ,4,Paul Gosar,R,Continuing,Catholic
+22,AZ,5,Andy Biggs,R,Continuing,Mormon
+23,AZ,6,David Schweikert,R,Continuing,Catholic
+24,AZ,7,Ruben Gallego,D,Continuing,Catholic
+25,AZ,8,Debbie Lesko,R,Continuing,Protestant unspecified
+26,AZ,9,Greg Stanton,D,Continuing,Catholic
+27,AZ,Senator,Mark Kelly,D,Freshman,Catholic
+28,AZ,Senator,Kyrsten Sinema,D,Continuing,Unaffiliated
+29,CA,1,Doug LaMalfa,R,Continuing,Protestant unspecified
+30,CA,2,Jared Huffman,D,Continuing,Other
+31,CA,3,John Garamendi,D,Continuing,Protestant unspecified
+32,CA,4,Tom McClintock,R,Continuing,Baptist
+33,CA,5,Mike Thompson,D,Continuing,Catholic
+34,CA,6,Doris Matsui,D,Continuing,Methodist
+35,CA,7,Ami Bera,D,Continuing,Unitarian Universalist
+36,CA,8,Jay Obernolte,R,Freshman,Protestant unspecified
+37,CA,9,Jerry McNerney,D,Continuing,Catholic
+38,CA,10,Josh Harder,D,Continuing,Protestant unspecified
+39,CA,11,Mark DeSaulnier,D,Continuing,Catholic
+40,CA,12,Nancy Pelosi,D,Continuing,Catholic
+41,CA,13,Barbara Lee,D,Continuing,Baptist
+42,CA,14,Jackie Speier,D,Continuing,Catholic
+43,CA,15,Eric Swalwell,D,Continuing,Protestant unspecified
+44,CA,16,Jim Costa,D,Continuing,Catholic
+45,CA,17,Ro Khanna,D,Continuing,Hindu
+46,CA,18,Anna G. Eshoo,D,Continuing,Catholic
+47,CA,19,Zoe Lofgren,D,Continuing,Lutheran
+48,CA,20,Jimmy Panetta,D,Continuing,Catholic
+49,CA,21,David Valadao,R,Freshman,Catholic
+50,CA,22,Devin Nunes,R,Continuing,Catholic
+51,CA,23,Kevin McCarthy,R,Continuing,Baptist
+52,CA,24,Salud Carbajal,D,Continuing,Catholic
+53,CA,25,Mike Garcia,R,Continuing,Protestant unspecified
+54,CA,26,Julia Brownley,D,Continuing,Episcopalian
+55,CA,27,Judy Chu,D,Continuing,Unitarian Universalist
+56,CA,28,Adam B. Schiff,D,Continuing,Jewish
+57,CA,29,Tony Cardenas,D,Continuing,Protestant unspecified
+58,CA,30,Brad Sherman,D,Continuing,Jewish
+59,CA,31,Pete Aguilar,D,Continuing,Catholic
+60,CA,32,Grace F. Napolitano,D,Continuing,Catholic
+61,CA,33,Ted Lieu,D,Continuing,Catholic
+62,CA,34,Jimmy Gomez,D,Continuing,Catholic
+63,CA,35,Norma J. Torres,D,Continuing,Catholic
+64,CA,36,Raul Ruiz,D,Continuing,Adventist
+65,CA,37,Karen Bass,D,Continuing,Baptist
+66,CA,38,Linda T. Sanchez,D,Continuing,Catholic
+67,CA,39,Young Kim,R,Freshman,Protestant unspecified
+68,CA,40,Lucille Roybal-Allard,D,Continuing,Catholic
+69,CA,41,Mark Takano,D,Continuing,Methodist
+70,CA,42,Ken Calvert,R,Continuing,Episcopalian
+71,CA,43,Maxine Waters,D,Continuing,Protestant unspecified
+72,CA,44,Nanette Barragan,D,Continuing,Catholic
+73,CA,45,Katie Porter,D,Continuing,Episcopalian
+74,CA,46,Lou Correa,D,Continuing,Catholic
+75,CA,47,Alan Lowenthal,D,Continuing,Jewish
+76,CA,48,Michelle Steel,R,Freshman,Protestant unspecified
+77,CA,49,Mike Levin,D,Continuing,Catholic
+78,CA,50,Darrell Issa,R,Freshman,Orthodox
+79,CA,51,Juan C. Vargas,D,Continuing,Catholic
+80,CA,52,Scott Peters,D,Continuing,Lutheran
+81,CA,53,Sara Jacobs,D,Freshman,Jewish
+82,CA,Senator,Dianne Feinstein,D,Continuing,Jewish
+83,CA,Senator,Kamala Harris,D,Continuing,Baptist
+84,CO,1,Diana DeGette,D,Continuing,Presbyterian
+85,CO,2,Joe Neguse,D,Continuing,Protestant unspecified
+86,CO,3,Lauren Boebert,R,Freshman,Nondenominational
+87,CO,4,Ken Buck,R,Continuing,Protestant unspecified
+88,CO,5,Doug Lamborn,R,Continuing,Protestant unspecified
+89,CO,6,Jason Crow,D,Continuing,Nondenominational
+90,CO,7,Ed Perlmutter,D,Continuing,Protestant unspecified
+91,CO,Senator,Michael Bennet,D,Continuing,Don't know/refused
+92,CO,Senator,John Hickenlooper,D,Freshman,Episcopalian
+93,CT,1,John B. Larson,D,Continuing,Catholic
+94,CT,2,Joe Courtney,D,Continuing,Catholic
+95,CT,3,Rosa DeLauro,D,Continuing,Catholic
+96,CT,4,Jim Himes,D,Continuing,Presbyterian
+97,CT,5,Jahana Hayes,D,Continuing,Methodist
+98,CT,Senator,Richard Blumenthal,D,Continuing,Jewish
+99,CT,Senator,Christopher S. Murphy,D,Continuing,Protestant unspecified
+100,DE,At-large,Lisa Blunt Rochester,D,Continuing,Protestant unspecified
+101,DE,Senator,Thomas R. Carper,D,Continuing,Presbyterian
+102,DE,Senator,Chris Coons,D,Continuing,Presbyterian
+103,FL,1,Matt Gaetz,R,Continuing,Baptist
+104,FL,2,Neal Dunn,R,Continuing,Catholic
+105,FL,3,Kat Cammack,R,Freshman,Protestant unspecified
+106,FL,4,John Rutherford,R,Continuing,Catholic
+107,FL,5,Al Lawson,D,Continuing,Episcopalian
+108,FL,6,Michael Waltz,R,Continuing,Protestant unspecified
+109,FL,7,Stephanie Murphy,D,Continuing,Protestant unspecified
+110,FL,8,Bill Posey,R,Continuing,Methodist
+111,FL,9,Darren Soto,D,Continuing,Catholic
+112,FL,10,Val B. Demings,D,Continuing,Protestant unspecified
+113,FL,11,Daniel Webster,R,Continuing,Baptist
+114,FL,12,Gus Bilirakis,R,Continuing,Orthodox
+115,FL,13,Charlie Crist,D,Continuing,Methodist
+116,FL,14,Kathy Castor,D,Continuing,Presbyterian
+117,FL,15,Scott Franklin,R,Freshman,Presbyterian
+118,FL,16,Vern Buchanan,R,Continuing,Baptist
+119,FL,17,Greg Steube,R,Continuing,Methodist
+120,FL,18,Brian Mast,R,Continuing,Protestant unspecified
+121,FL,19,Byron Donalds,R,Freshman,Protestant unspecified
+122,FL,20,Alcee L. Hastings,D,Continuing,Methodist
+123,FL,21,Lois Frankel,D,Continuing,Jewish
+124,FL,22,Ted Deutch,D,Continuing,Jewish
+125,FL,23,Debbie Wasserman Schultz,D,Continuing,Jewish
+126,FL,24,Frederica S. Wilson,D,Continuing,Episcopalian
+127,FL,25,Mario Diaz-Balart,R,Continuing,Catholic
+128,FL,26,Carlos Gimenez,R,Freshman,Catholic
+129,FL,27,Maria Elvira Salazar,R,Freshman,Protestant unspecified
+130,FL,Senator,Marco Rubio,R,Continuing,Catholic
+131,FL,Senator,Rick Scott,R,Continuing,Protestant unspecified
+132,GA,1,"Earl L. ""Buddy"" Carter",R,Continuing,Methodist
+133,GA,2,Sanford D. Bishop Jr.,D,Continuing,Baptist
+134,GA,3,Drew Ferguson,R,Continuing,Nondenominational
+135,GA,4,Hank Johnson,D,Continuing,Buddhist
+136,GA,5,Nikema Williams,D,Freshman,Methodist
+137,GA,6,Lucy McBath,D,Continuing,Protestant unspecified
+138,GA,7,Carolyn Bourdeaux,D,Freshman,Protestant unspecified
+139,GA,8,Austin Scott,R,Continuing,Baptist
+140,GA,9,Andrew Clyde,R,Freshman,Baptist
+141,GA,10,Jody B. Hice,R,Continuing,Baptist
+142,GA,11,Barry Loudermilk,R,Continuing,Baptist
+143,GA,12,Rick W. Allen,R,Continuing,Methodist
+144,GA,13,David Scott,D,Continuing,Baptist
+145,GA,14,Marjorie Taylor Greene,R,Freshman,Protestant unspecified
+146,HI,1,Ed Case,D,Continuing,Protestant unspecified
+147,HI,2,Kai Kahele,D,Freshman,Don't know/refused
+148,HI,Senator,Brian Schatz,D,Continuing,Jewish
+149,HI,Senator,Mazie K. Hirono,D,Continuing,Buddhist
+150,IA,1,Ashley Hinson,R,Freshman,Nondenominational
+151,IA,2,Mariannette Miller-Meeks,R,Freshman,Catholic
+152,IA,3,Cindy Axne,D,Continuing,Catholic
+153,IA,4,Randy Feenstra,R,Freshman,Protestant unspecified
+154,IA,Senator,Charles E. Grassley,R,Continuing,Baptist
+155,IA,Senator,Joni Ernst,R,Continuing,Lutheran
+156,ID,1,Russ Fulcher,R,Continuing,Protestant unspecified
+157,ID,2,Mike Simpson,R,Continuing,Mormon
+158,ID,Senator,Jim Risch,R,Continuing,Catholic
+159,ID,Senator,Michael D. Crapo,R,Continuing,Mormon
+160,IL,1,Bobby L. Rush,D,Continuing,Protestant unspecified
+161,IL,2,Robin Kelly,D,Continuing,Nondenominational
+162,IL,3,Marie Newman,D,Freshman,Catholic
+163,IL,4,"Jesus ""Chuy"" Garcia",D,Continuing,Catholic
+164,IL,5,Mike Quigley,D,Continuing,Protestant unspecified
+165,IL,6,Sean Casten,D,Continuing,Don't know/refused
+166,IL,7,Danny K. Davis,D,Continuing,Baptist
+167,IL,8,Raja Krishnamoorthi,D,Continuing,Hindu
+168,IL,9,Jan Schakowsky,D,Continuing,Jewish
+169,IL,10,Brad Schneider,D,Continuing,Jewish
+170,IL,11,Bill Foster,D,Continuing,Don't know/refused
+171,IL,12,Mike Bost,R,Continuing,Baptist
+172,IL,13,Rodney Davis,R,Continuing,Catholic
+173,IL,14,Lauren Underwood,D,Continuing,Protestant unspecified
+174,IL,15,Mary Miller,R,Freshman,Protestant unspecified
+175,IL,16,Adam Kinzinger,R,Continuing,Protestant unspecified
+176,IL,17,Cheri Bustos,D,Continuing,Catholic
+177,IL,18,Darin LaHood,R,Continuing,Catholic
+178,IL,Senator,Richard J. Durbin,D,Continuing,Catholic
+179,IL,Senator,Tammy Duckworth,D,Continuing,Don't know/refused
+180,IN,1,Frank J. Mrvan,D,Freshman,Catholic
+181,IN,2,Jackie Walorski,R,Continuing,Protestant unspecified
+182,IN,3,Jim Banks,R,Continuing,Protestant unspecified
+183,IN,4,Jim Baird,R,Continuing,Protestant unspecified
+184,IN,5,Victoria Spartz,R,Freshman,Orthodox
+185,IN,6,Greg Pence,R,Continuing,Catholic
+186,IN,7,Andre Carson,D,Continuing,Muslim
+187,IN,8,Larry Bucshon,R,Continuing,Lutheran
+188,IN,9,Trey Hollingsworth,R,Continuing,Protestant unspecified
+189,IN,Senator,Mike Braun,R,Continuing,Catholic
+190,IN,Senator,Todd Young,R,Continuing,Protestant unspecified
+191,KS,1,Tracey Mann,R,Freshman,Pietist
+192,KS,2,Jake LaTurner,R,Freshman,Catholic
+193,KS,3,Sharice Davids,D,Continuing,Don't know/refused
+194,KS,4,Ron Estes,R,Continuing,Lutheran
+195,KS,Senator,Jerry Moran,R,Continuing,Protestant unspecified
+196,KS,Senator,Roger Marshall,R,Freshman,Nondenominational
+197,KY,1,James R. Comer,R,Continuing,Baptist
+198,KY,2,Brett Guthrie,R,Continuing,Restorationist
+199,KY,3,John Yarmuth,D,Continuing,Jewish
+200,KY,4,Thomas Massie,R,Continuing,Methodist
+201,KY,5,Harold Rogers,R,Continuing,Baptist
+202,KY,6,Andy Barr,R,Continuing,Episcopalian
+203,KY,Senator,Mitch McConnell,R,Continuing,Baptist
+204,KY,Senator,Rand Paul,R,Continuing,Presbyterian
+205,LA,1,Steve Scalise,R,Continuing,Catholic
+206,LA,2,Cedric L. Richmond,D,Continuing,Baptist
+207,LA,3,Clay Higgins,R,Continuing,Protestant unspecified
+208,LA,4,Mike Johnson,R,Continuing,Baptist
+209,LA,6,Garret Graves,R,Continuing,Catholic
+210,LA,Senator,John Kennedy,R,Continuing,Methodist
+211,LA,Senator,Bill Cassidy,R,Continuing,Protestant unspecified
+212,MA,1,Richard E. Neal,D,Continuing,Catholic
+213,MA,2,Jim McGovern,D,Continuing,Catholic
+214,MA,3,Lori Trahan,D,Continuing,Catholic
+215,MA,4,Jake Auchincloss,D,Freshman,Jewish
+216,MA,5,Katherine M. Clark,D,Continuing,Protestant unspecified
+217,MA,6,Seth Moulton,D,Continuing,Protestant unspecified
+218,MA,7,Ayanna S. Pressley,D,Continuing,Baptist
+219,MA,8,Stephen F. Lynch,D,Continuing,Catholic
+220,MA,9,William Keating,D,Continuing,Catholic
+221,MA,Senator,Elizabeth Warren,D,Continuing,Methodist
+222,MA,Senator,Edward J. Markey,D,Continuing,Catholic
+223,MD,1,Andy Harris,R,Continuing,Catholic
+224,MD,2,C.A. Dutch Ruppersberger,D,Continuing,Methodist
+225,MD,3,John Sarbanes,D,Continuing,Orthodox
+226,MD,4,Anthony G. Brown,D,Continuing,Catholic
+227,MD,5,Steny H. Hoyer,D,Continuing,Baptist
+228,MD,6,David Trone,D,Continuing,Lutheran
+229,MD,7,Kweisi Mfume,D,Continuing,Baptist
+230,MD,8,Jamie Raskin,D,Continuing,Jewish
+231,MD,Senator,Benjamin L. Cardin,D,Continuing,Jewish
+232,MD,Senator,Chris Van Hollen,D,Continuing,Episcopalian
+233,ME,1,Chellie Pingree,D,Continuing,Lutheran
+234,ME,2,Jared Golden,D,Continuing,Don't know/refused
+235,ME,Senator,Angus King,I,Continuing,Episcopalian
+236,ME,Senator,Susan Collins,R,Continuing,Catholic
+237,MI,1,Jack Bergman,R,Continuing,Lutheran
+238,MI,2,Bill Huizenga,R,Continuing,Reformed
+239,MI,3,Peter Meijer,R,Freshman,Protestant unspecified
+240,MI,4,John Moolenaar,R,Continuing,Protestant unspecified
+241,MI,5,Dan Kildee,D,Continuing,Catholic
+242,MI,6,Fred Upton,R,Continuing,Protestant unspecified
+243,MI,7,Tim Walberg,R,Continuing,Protestant unspecified
+244,MI,8,Elissa Slotkin,D,Continuing,Jewish
+245,MI,9,Andy Levin,D,Continuing,Jewish
+246,MI,10,Lisa McClain,R,Freshman,Catholic
+247,MI,11,Haley Stevens,D,Continuing,Protestant unspecified
+248,MI,12,Debbie Dingell,D,Continuing,Catholic
+249,MI,13,Rashida Tlaib,D,Continuing,Muslim
+250,MI,14,Brenda Lawrence,D,Continuing,Protestant unspecified
+251,MI,Senator,Gary Peters,D,Continuing,Episcopalian
+252,MI,Senator,Debbie Stabenow,D,Continuing,Methodist
+253,MN,1,Jim Hagedorn,R,Continuing,Lutheran
+254,MN,2,Angie Craig,D,Continuing,Lutheran
+255,MN,3,Dean Phillips,D,Continuing,Jewish
+256,MN,4,Betty McCollum,D,Continuing,Catholic
+257,MN,5,Ilhan Omar,D,Continuing,Muslim
+258,MN,6,Tom Emmer,R,Continuing,Catholic
+259,MN,7,Michelle Fischbach,R,Freshman,Catholic
+260,MN,8,Pete Stauber,R,Continuing,Catholic
+261,MN,Senator,Tina Smith,D,Continuing,Presbyterian
+262,MN,Senator,Amy Klobuchar,D,Continuing,Congregationalist
+263,MO,1,Cori Bush,D,Freshman,Nondenominational
+264,MO,2,Ann Wagner,R,Continuing,Catholic
+265,MO,3,Blaine Luetkemeyer,R,Continuing,Catholic
+266,MO,4,Vicky Hartzler,R,Continuing,Protestant unspecified
+267,MO,5,Emanuel Cleaver II,D,Continuing,Methodist
+268,MO,6,Sam Graves,R,Continuing,Baptist
+269,MO,7,Billy Long,R,Continuing,Presbyterian
+270,MO,8,Jason Smith,R,Continuing,Pentecostal
+271,MO,Senator,Roy Blunt,R,Continuing,Baptist
+272,MO,Senator,Josh Hawley,R,Continuing,Protestant unspecified
+273,MS,1,Trent Kelly,R,Continuing,Protestant unspecified
+274,MS,2,Bennie Thompson,D,Continuing,Methodist
+275,MS,3,Michael Guest,R,Continuing,Baptist
+276,MS,4,Steven M. Palazzo,R,Continuing,Catholic
+277,MS,Senator,Cindy Hyde-Smith,R,Continuing,Baptist
+278,MS,Senator,Roger Wicker,R,Continuing,Baptist
+279,MT,At-large,Matt Rosendale,R,Freshman,Catholic
+280,MT,Senator,Steve Daines,R,Continuing,Presbyterian
+281,MT,Senator,Jon Tester,D,Continuing,Protestant unspecified
+282,NC,1,G.K. Butterfield,D,Continuing,Baptist
+283,NC,2,Deborah K. Ross,D,Freshman,Unitarian Universalist
+284,NC,3,Greg Murphy,R,Continuing,Catholic
+285,NC,4,David E. Price,D,Continuing,Baptist
+286,NC,5,Virginia Foxx,R,Continuing,Catholic
+287,NC,6,Kathy Manning,D,Freshman,Jewish
+288,NC,7,David Rouzer,R,Continuing,Baptist
+289,NC,8,Richard Hudson,R,Continuing,Protestant unspecified
+290,NC,9,Dan Bishop,R,Continuing,Protestant unspecified
+291,NC,10,Patrick T. McHenry,R,Continuing,Catholic
+292,NC,11,Madison Cawthorn,R,Freshman,Protestant unspecified
+293,NC,12,Alma Adams,D,Continuing,Baptist
+294,NC,13,Ted Budd,R,Continuing,Nondenominational
+295,NC,Senator,Thom Tillis,R,Continuing,Catholic
+296,NC,Senator,Richard M. Burr,R,Continuing,Methodist
+297,ND,At-large,Kelly Armstrong,R,Continuing,Lutheran
+298,ND,Senator,Kevin Cramer,R,Continuing,Protestant unspecified
+299,ND,Senator,John Hoeven,R,Continuing,Catholic
+300,NE,1,Jeff Fortenberry,R,Continuing,Catholic
+301,NE,2,Don Bacon,R,Continuing,Protestant unspecified
+302,NE,3,Adrian Smith,R,Continuing,Protestant unspecified
+303,NE,Senator,Deb Fischer,R,Continuing,Presbyterian
+304,NE,Senator,Ben Sasse,R,Continuing,Lutheran
+305,NH,1,Chris Pappas,D,Continuing,Orthodox
+306,NH,2,Ann McLane Kuster,D,Continuing,Protestant unspecified
+307,NH,Senator,Jeanne Shaheen,D,Continuing,Protestant unspecified
+308,NH,Senator,Maggie Hassan,D,Continuing,Congregationalist
+309,NJ,1,Donald Norcross,D,Continuing,Lutheran
+310,NJ,2,Jeff Van Drew,R,Continuing,Catholic
+311,NJ,3,Andy Kim,D,Continuing,Presbyterian
+312,NJ,4,Christopher H. Smith,R,Continuing,Catholic
+313,NJ,5,Josh Gottheimer,D,Continuing,Jewish
+314,NJ,6,Frank Pallone Jr.,D,Continuing,Catholic
+315,NJ,7,Tom Malinowski,D,Continuing,Don't know/refused
+316,NJ,8,Albio Sires,D,Continuing,Catholic
+317,NJ,9,Bill Pascrell Jr.,D,Continuing,Catholic
+318,NJ,10,Donald M. Payne Jr.,D,Continuing,Baptist
+319,NJ,11,Mikie Sherrill,D,Continuing,Catholic
+320,NJ,12,Bonnie Watson Coleman,D,Continuing,Baptist
+321,NJ,Senator,Bob Menendez,D,Continuing,Catholic
+322,NJ,Senator,Cory Booker,D,Continuing,Baptist
+323,NM,1,Deb Haaland,D,Continuing,Catholic
+324,NM,2,Yvette Herrell,R,Freshman,Protestant unspecified
+325,NM,3,Teresa Leger Fernandez,D,Freshman,Catholic
+326,NM,Senator,Ben Ray Lujan,D,Freshman,Catholic
+327,NM,Senator,Martin Heinrich,D,Continuing,Lutheran
+328,NV,1,Dina Titus,D,Continuing,Orthodox
+329,NV,2,Mark Amodei,R,Continuing,Protestant unspecified
+330,NV,3,Susie Lee,D,Continuing,Catholic
+331,NV,4,Steven Horsford,D,Continuing,Baptist
+332,NV,Senator,Catherine Cortez Masto,D,Continuing,Catholic
+333,NV,Senator,Jacky Rosen,D,Continuing,Jewish
+334,NY,1,Lee Zeldin,R,Continuing,Jewish
+335,NY,2,Andrew Garbarino,R,Freshman,Catholic
+336,NY,3,Tom Suozzi,D,Continuing,Catholic
+337,NY,4,Kathleen Rice,D,Continuing,Catholic
+338,NY,5,Gregory W. Meeks,D,Continuing,Methodist
+339,NY,6,Grace Meng,D,Continuing,Protestant unspecified
+340,NY,7,Nydia M. Velazquez,D,Continuing,Catholic
+341,NY,8,Hakeem Jeffries,D,Continuing,Baptist
+342,NY,9,Yvette D. Clarke,D,Continuing,Protestant unspecified
+343,NY,10,Jerrold Nadler,D,Continuing,Jewish
+344,NY,11,Nicole Malliotakis,R,Freshman,Orthodox
+345,NY,12,Carolyn B. Maloney,D,Continuing,Presbyterian
+346,NY,13,Adriano Espaillat,D,Continuing,Catholic
+347,NY,14,Alexandria Ocasio-Cortez,D,Continuing,Catholic
+348,NY,15,Ritchie Torres,D,Freshman,Protestant unspecified
+349,NY,16,Jamaal Bowman,D,Freshman,Don't know/refused
+350,NY,17,Mondaire Jones,D,Freshman,Baptist
+351,NY,18,Sean Patrick Maloney,D,Continuing,Catholic
+352,NY,19,Antonio Delgado,D,Continuing,Don't know/refused
+353,NY,20,Paul Tonko,D,Continuing,Catholic
+354,NY,21,Elise Stefanik,R,Continuing,Catholic
+355,NY,23,Tom Reed,R,Continuing,Catholic
+356,NY,24,John Katko,R,Continuing,Catholic
+357,NY,25,Joseph D. Morelle,D,Continuing,Catholic
+358,NY,26,Brian Higgins,D,Continuing,Catholic
+359,NY,27,Chris Jacobs,R,Continuing,Don't know/refused
+360,NY,Senator,Kirsten Gillibrand,D,Continuing,Catholic
+361,NY,Senator,Charles E. Schumer,D,Continuing,Jewish
+362,OH,1,Steve Chabot,R,Continuing,Catholic
+363,OH,2,Brad Wenstrup,R,Continuing,Catholic
+364,OH,3,Joyce Beatty,D,Continuing,Baptist
+365,OH,4,Jim Jordan,R,Continuing,Protestant unspecified
+366,OH,5,Bob Latta,R,Continuing,Catholic
+367,OH,6,Bill Johnson,R,Continuing,Protestant unspecified
+368,OH,7,Bob Gibbs,R,Continuing,Methodist
+369,OH,8,Warren Davidson,R,Continuing,Protestant unspecified
+370,OH,9,Marcy Kaptur,D,Continuing,Catholic
+371,OH,10,Michael R. Turner,R,Continuing,Protestant unspecified
+372,OH,11,Marcia L. Fudge,D,Continuing,Baptist
+373,OH,12,Troy Balderson,R,Continuing,Protestant unspecified
+374,OH,13,Tim Ryan,D,Continuing,Catholic
+375,OH,14,David Joyce,R,Continuing,Catholic
+376,OH,15,Steve Stivers,R,Continuing,Methodist
+377,OH,16,Anthony Gonzalez,R,Continuing,Catholic
+378,OH,Senator,Sherrod Brown,D,Continuing,Lutheran
+379,OH,Senator,Rob Portman,R,Continuing,Methodist
+380,OK,1,Kevin Hern,R,Continuing,Protestant unspecified
+381,OK,2,Markwayne Mullin,R,Continuing,Pentecostal
+382,OK,3,Frank D. Lucas,R,Continuing,Baptist
+383,OK,4,Tom Cole,R,Continuing,Methodist
+384,OK,5,Stephanie Bice,R,Freshman,Catholic
+385,OK,Senator,James Lankford,R,Continuing,Baptist
+386,OK,Senator,James M. Inhofe,R,Continuing,Presbyterian
+387,OR,1,Suzanne Bonamici,D,Continuing,Don't know/refused
+388,OR,2,Cliff Bentz,R,Freshman,Catholic
+389,OR,3,Earl Blumenauer,D,Continuing,Don't know/refused
+390,OR,4,Peter A. DeFazio,D,Continuing,Catholic
+391,OR,5,Kurt Schrader,D,Continuing,Episcopalian
+392,OR,Senator,Ron Wyden,D,Continuing,Jewish
+393,OR,Senator,Jeff Merkley,D,Continuing,Lutheran
+394,PA,1,Brian Fitzpatrick,R,Continuing,Catholic
+395,PA,2,Brendan F. Boyle,D,Continuing,Catholic
+396,PA,3,Dwight Evans,D,Continuing,Baptist
+397,PA,4,Madeleine Dean,D,Continuing,Catholic
+398,PA,5,Mary Gay Scanlon,D,Continuing,Catholic
+399,PA,6,Chrissy Houlahan,D,Continuing,Don't know/refused
+400,PA,7,Susan Wild,D,Continuing,Jewish
+401,PA,8,Matt Cartwright,D,Continuing,Catholic
+402,PA,9,Dan Meuser,R,Continuing,Catholic
+403,PA,10,Scott Perry,R,Continuing,Protestant unspecified
+404,PA,11,Lloyd K. Smucker,R,Continuing,Lutheran
+405,PA,12,Fred Keller,R,Continuing,Protestant unspecified
+406,PA,13,John Joyce,R,Continuing,Catholic
+407,PA,14,Guy Reschenthaler,R,Continuing,Protestant unspecified
+408,PA,15,"Glenn ""GT"" Thompson",R,Continuing,Protestant unspecified
+409,PA,16,Mike Kelly,R,Continuing,Catholic
+410,PA,17,Conor Lamb,D,Continuing,Catholic
+411,PA,18,Mike Doyle,D,Continuing,Catholic
+412,PA,Senator,Patrick J. Toomey,R,Continuing,Catholic
+413,PA,Senator,Bob Casey,D,Continuing,Catholic
+414,RI,1,David Cicilline,D,Continuing,Jewish
+415,RI,2,Jim Langevin,D,Continuing,Catholic
+416,RI,Senator,Jack Reed,D,Continuing,Catholic
+417,RI,Senator,Sheldon Whitehouse,D,Continuing,Episcopalian
+418,SC,1,Nancy Mace,R,Freshman,Nondenominational
+419,SC,2,Joe Wilson,R,Continuing,Presbyterian
+420,SC,3,Jeff Duncan,R,Continuing,Baptist
+421,SC,4,William R. Timmons IV,R,Continuing,Protestant unspecified
+422,SC,5,Ralph Norman,R,Continuing,Presbyterian
+423,SC,6,James E. Clyburn,D,Continuing,Methodist
+424,SC,7,Tom Rice,R,Continuing,Episcopalian
+425,SC,Senator,Lindsey Graham,R,Continuing,Baptist
+426,SC,Senator,Tim Scott,R,Continuing,Protestant unspecified
+427,SD,At-large,Dusty Johnson,R,Continuing,Protestant unspecified
+428,SD,Senator,John Thune,R,Continuing,Protestant unspecified
+429,SD,Senator,Mike Rounds,R,Continuing,Catholic
+430,TN,1,Diana Harshbarger,R,Freshman,Baptist
+431,TN,2,Tim Burchett,R,Continuing,Presbyterian
+432,TN,3,Chuck Fleischmann,R,Continuing,Catholic
+433,TN,4,Scott DesJarlais,R,Continuing,Episcopalian
+434,TN,5,Jim Cooper,D,Continuing,Episcopalian
+435,TN,6,John W. Rose,R,Continuing,Protestant unspecified
+436,TN,7,Mark E. Green,R,Continuing,Protestant unspecified
+437,TN,8,David Kustoff,R,Continuing,Jewish
+438,TN,9,Steve Cohen,D,Continuing,Jewish
+439,TN,Senator,Bill Hagerty,R,Freshman,Episcopalian
+440,TN,Senator,Marsha Blackburn,R,Continuing,Presbyterian
+441,TX,1,Louie Gohmert,R,Continuing,Baptist
+442,TX,2,Daniel Crenshaw,R,Continuing,Methodist
+443,TX,3,Van Taylor,R,Continuing,Episcopalian
+444,TX,4,Pat Fallon,R,Freshman,Catholic
+445,TX,5,Lance Gooden,R,Continuing,Restorationist
+446,TX,6,Ron Wright,R,Continuing,Catholic
+447,TX,7,Lizzie Fletcher,D,Continuing,Methodist
+448,TX,8,Kevin Brady,R,Continuing,Catholic
+449,TX,9,Al Green,D,Continuing,Baptist
+450,TX,10,Michael McCaul,R,Continuing,Catholic
+451,TX,11,August Pfluger,R,Freshman,Protestant unspecified
+452,TX,12,Kay Granger,R,Continuing,Methodist
+453,TX,13,Ronny Jackson,R,Freshman,Restorationist
+454,TX,14,Randy Weber,R,Continuing,Baptist
+455,TX,15,Vicente Gonzalez,D,Continuing,Catholic
+456,TX,16,Veronica Escobar,D,Continuing,Catholic
+457,TX,17,Pete Sessions,R,Freshman,Methodist
+458,TX,18,Sheila Jackson Lee,D,Continuing,Adventist
+459,TX,19,Jodey C. Arrington,R,Continuing,Presbyterian
+460,TX,20,Joaquin Castro,D,Continuing,Catholic
+461,TX,21,Chip Roy,R,Continuing,Baptist
+462,TX,22,Troy Nehls,R,Freshman,Protestant unspecified
+463,TX,23,Tony Gonzales,R,Freshman,Catholic
+464,TX,24,Beth Van Duyne,R,Freshman,Episcopalian
+465,TX,25,Roger Williams,R,Continuing,Protestant unspecified
+466,TX,26,Michael C. Burgess,R,Continuing,Episcopalian
+467,TX,27,Michael Cloud,R,Continuing,Protestant unspecified
+468,TX,28,Henry Cuellar,D,Continuing,Catholic
+469,TX,29,Sylvia R. Garcia,D,Continuing,Catholic
+470,TX,30,Eddie Bernice Johnson,D,Continuing,Baptist
+471,TX,31,John Carter,R,Continuing,Lutheran
+472,TX,32,Colin Allred,D,Continuing,Methodist
+473,TX,33,Marc Veasey,D,Continuing,Baptist
+474,TX,34,Filemon Vela,D,Continuing,Catholic
+475,TX,35,Lloyd Doggett,D,Continuing,Methodist
+476,TX,36,Brian Babin,R,Continuing,Baptist
+477,TX,Senator,John Cornyn,R,Continuing,Nondenominational
+478,TX,Senator,Ted Cruz,R,Continuing,Baptist
+479,UT,1,Blake D. Moore,R,Freshman,Mormon
+480,UT,2,Chris Stewart,R,Continuing,Mormon
+481,UT,3,John Curtis,R,Continuing,Mormon
+482,UT,4,Burgess Owens,R,Freshman,Mormon
+483,UT,Senator,Mitt Romney,R,Continuing,Mormon
+484,UT,Senator,Mike Lee,R,Continuing,Mormon
+485,VA,1,Rob Wittman,R,Continuing,Episcopalian
+486,VA,2,Elaine Luria,D,Continuing,Jewish
+487,VA,3,Robert C. Scott,D,Continuing,Episcopalian
+488,VA,4,A. Donald McEachin,D,Continuing,Baptist
+489,VA,5,Bob Good,R,Freshman,Protestant unspecified
+490,VA,6,Ben Cline,R,Continuing,Catholic
+491,VA,7,Abigail Spanberger,D,Continuing,Protestant unspecified
+492,VA,8,Donald S. Beyer Jr.,D,Continuing,Episcopalian
+493,VA,9,Morgan Griffith,R,Continuing,Protestant unspecified
+494,VA,10,Jennifer Wexton,D,Continuing,Don't know/refused
+495,VA,11,Gerald E. Connolly,D,Continuing,Catholic
+496,VA,Senator,Mark Warner,D,Continuing,Presbyterian
+497,VA,Senator,Tim Kaine,D,Continuing,Catholic
+498,VT,At-large,Peter Welch,D,Continuing,Catholic
+499,VT,Senator,Patrick J. Leahy,D,Continuing,Catholic
+500,VT,Senator,Bernie Sanders,I,Continuing,Jewish
+501,WA,1,Suzan DelBene,D,Continuing,Episcopalian
+502,WA,2,Rick Larsen,D,Continuing,Methodist
+503,WA,3,Jaime Herrera Beutler,R,Continuing,Protestant unspecified
+504,WA,4,Dan Newhouse,R,Continuing,Presbyterian
+505,WA,5,Cathy McMorris Rodgers,R,Continuing,Nondenominational
+506,WA,6,Derek Kilmer,D,Continuing,Methodist
+507,WA,7,Pramila Jayapal,D,Continuing,Don't know/refused
+508,WA,8,Kim Schrier,D,Continuing,Jewish
+509,WA,9,Adam Smith,D,Continuing,Episcopalian
+510,WA,10,Marilyn Strickland,D,Freshman,Protestant unspecified
+511,WA,Senator,Maria Cantwell,D,Continuing,Catholic
+512,WA,Senator,Patty Murray,D,Continuing,Catholic
+513,WI,1,Bryan Steil,R,Continuing,Catholic
+514,WI,2,Mark Pocan,D,Continuing,Don't know/refused
+515,WI,3,Ron Kind,D,Continuing,Lutheran
+516,WI,4,Gwen Moore,D,Continuing,Baptist
+517,WI,5,Scott Fitzgerald,R,Freshman,Catholic
+518,WI,6,Glenn Grothman,R,Continuing,Lutheran
+519,WI,7,Tom Tiffany,R,Continuing,Protestant unspecified
+520,WI,8,Mike Gallagher,R,Continuing,Catholic
+521,WI,Senator,Tammy Baldwin,D,Continuing,Don't know/refused
+522,WI,Senator,Ron Johnson,R,Continuing,Lutheran
+523,WV,1,David B. McKinley,R,Continuing,Episcopalian
+524,WV,2,Alex X. Mooney,R,Continuing,Catholic
+525,WV,3,Carol Miller,R,Continuing,Baptist
+526,WV,Senator,Joe Manchin III,D,Continuing,Catholic
+527,WV,Senator,Shelley Moore Capito,R,Continuing,Presbyterian
+528,WY,At-large,Liz Cheney,R,Continuing,Methodist
+529,WY,Senator,John Barrasso,R,Continuing,Presbyterian
+530,WY,Senator,Cynthia Lummis,R,Freshman,Lutheran

@@ -1,0 +1,458 @@
+[1] "** Loading scdata **"
+[1] "** Loaded data **"
+[1] "Number of rows in df:"
+[1] 1211373
+[1] "Number of rows in lr_df:"
+[1] 1169385
+[1] "NOW REGRESSING ON CLASSIFIER OUTPUT"
+[1] "** Iterating through various models: proportion marked religious **"
+[1] "Single variables"
+[1] "Only party:"
+
+Call:
+lm(formula = lr_label_prop_religious ~ is_republican, data = df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.07012 -0.07012 -0.06926  0.02164  0.93074 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)    
+(Intercept)        0.0701151  0.0001704 411.440  < 2e-16 ***
+is_republicanTRUE -0.0008506  0.0002474  -3.438 0.000586 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1336 on 1169383 degrees of freedom
+  (41988 observations deleted due to missingness)
+Multiple R-squared:  1.011e-05,	Adjusted R-squared:  9.252e-06 
+F-statistic: 11.82 on 1 and 1169383 DF,  p-value: 0.0005864
+
+[1] "Only year:"
+
+Call:
+lm(formula = lr_label_prop_religious ~ year, data = df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.07397 -0.06985 -0.06727  0.02225  0.93325 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -4.479e-01  3.115e-02  -14.38   <2e-16 ***
+year         2.580e-04  1.552e-05   16.61   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1336 on 1169383 degrees of freedom
+  (41988 observations deleted due to missingness)
+Multiple R-squared:  0.000236,	Adjusted R-squared:  0.0002352 
+F-statistic: 276.1 on 1 and 1169383 DF,  p-value: < 2.2e-16
+
+[1] "No random effects"
+
+Call:
+lm(formula = lr_label_prop_religious ~ is_republican + is_in_senate + 
+    is_republican * year, data = df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.08202 -0.07181 -0.06357  0.02226  0.94270 
+
+Coefficients:
+                         Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             4.887e-01  4.401e-02  11.105   <2e-16 ***
+is_republicanTRUE      -1.583e+00  6.228e-02 -25.415   <2e-16 ***
+is_in_senateTRUE       -8.442e-03  2.604e-04 -32.423   <2e-16 ***
+year                   -2.071e-04  2.193e-05  -9.445   <2e-16 ***
+is_republicanTRUE:year  7.885e-04  3.104e-05  25.403   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1335 on 1169380 degrees of freedom
+  (41988 observations deleted due to missingness)
+Multiple R-squared:  0.001711,	Adjusted R-squared:  0.001707 
+F-statistic: 500.9 on 4 and 1169380 DF,  p-value: < 2.2e-16
+
+[1] "Using a multi-level model with random effect for year"
+
+Call:
+lm(formula = lr_label_prop_religious ~ is_republican + is_in_senate * 
+    is_republican + is_in_senate + is_republican * year + (1 | 
+    year), data = df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.08235 -0.07154 -0.06374  0.02214  0.94360 
+
+Coefficients: (1 not defined because of singularities)
+                                     Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                         4.637e-01  4.419e-02  10.494  < 2e-16 ***
+is_republicanTRUE                  -1.525e+00  6.299e-02 -24.211  < 2e-16 ***
+is_in_senateTRUE                   -6.924e-03  3.586e-04 -19.308  < 2e-16 ***
+year                               -1.949e-04  2.201e-05  -8.855  < 2e-16 ***
+1 | yearTRUE                               NA         NA      NA       NA    
+is_republicanTRUE:is_in_senateTRUE -3.208e-03  5.215e-04  -6.152 7.67e-10 ***
+is_republicanTRUE:year              7.602e-04  3.138e-05  24.228  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1335 on 1169379 degrees of freedom
+  (41988 observations deleted due to missingness)
+Multiple R-squared:  0.001743,	Adjusted R-squared:  0.001739 
+F-statistic: 408.3 on 5 and 1169379 DF,  p-value: < 2.2e-16
+
+[1] "** Iterating through various models: average classifier probability **"
+[1] "Single variables"
+[1] "Only party:"
+
+Call:
+lm(formula = avg_lr_prob ~ is_republican, data = df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.10477 -0.08816 -0.03404  0.04370  0.89682 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)    
+(Intercept)        0.1047700  0.0001504 696.797  < 2e-16 ***
+is_republicanTRUE -0.0016663  0.0002183  -7.633  2.3e-14 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1179 on 1169383 degrees of freedom
+  (41988 observations deleted due to missingness)
+Multiple R-squared:  4.982e-05,	Adjusted R-squared:  4.896e-05 
+F-statistic: 58.26 on 1 and 1169383 DF,  p-value: 2.301e-14
+
+[1] "Only year:"
+
+Call:
+lm(formula = avg_lr_prob ~ year, data = df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.10941 -0.08810 -0.03402  0.04373  0.89818 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -0.5550678  0.0274812  -20.20   <2e-16 ***
+year         0.0003285  0.0000137   23.98   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1179 on 1169383 degrees of freedom
+  (41988 observations deleted due to missingness)
+Multiple R-squared:  0.0004916,	Adjusted R-squared:  0.0004907 
+F-statistic: 575.1 on 1 and 1169383 DF,  p-value: < 2.2e-16
+
+[1] "No random effects"
+
+Call:
+lm(formula = avg_lr_prob ~ is_republican + is_in_senate + is_republican * 
+    year, data = df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.11891 -0.08730 -0.03403  0.04381  0.90702 
+
+Coefficients:
+                         Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             5.897e-01  3.879e-02   15.20   <2e-16 ***
+is_republicanTRUE      -1.910e+00  5.490e-02  -34.80   <2e-16 ***
+is_in_senateTRUE       -1.089e-02  2.295e-04  -47.43   <2e-16 ***
+year                   -2.397e-04  1.933e-05  -12.40   <2e-16 ***
+is_republicanTRUE:year  9.514e-04  2.736e-05   34.77   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1177 on 1169380 degrees of freedom
+  (41988 observations deleted due to missingness)
+Multiple R-squared:  0.003518,	Adjusted R-squared:  0.003515 
+F-statistic:  1032 on 4 and 1169380 DF,  p-value: < 2.2e-16
+
+[1] "Using a multi-level model with random effect for year"
+
+Call:
+lm(formula = avg_lr_prob ~ is_republican + is_in_senate * is_republican + 
+    is_in_senate + is_republican * year + (1 | year), data = df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.11916 -0.08715 -0.03400  0.04379  0.90769 
+
+Coefficients: (1 not defined because of singularities)
+                                     Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                         5.717e-01  3.896e-02  14.676  < 2e-16 ***
+is_republicanTRUE                  -1.869e+00  5.552e-02 -33.657  < 2e-16 ***
+is_in_senateTRUE                   -9.795e-03  3.161e-04 -30.982  < 2e-16 ***
+year                               -2.310e-04  1.941e-05 -11.902  < 2e-16 ***
+1 | yearTRUE                               NA         NA      NA       NA    
+is_republicanTRUE:is_in_senateTRUE -2.308e-03  4.597e-04  -5.021 5.15e-07 ***
+is_republicanTRUE:year              9.310e-04  2.766e-05  33.659  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1177 on 1169379 degrees of freedom
+  (41988 observations deleted due to missingness)
+Multiple R-squared:  0.00354,	Adjusted R-squared:  0.003535 
+F-statistic: 830.8 on 5 and 1169379 DF,  p-value: < 2.2e-16
+
+[1] "NOW REGRESSING ON KEYWORD-BASED MEASURES"
+[1] "** Iterating through various models **"
+[1] "Single variables"
+[1] "Only party:"
+
+Call:
+lm(formula = lexical ~ is_republican, data = df)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.000347 -0.000347 -0.000282 -0.000282  0.117365 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       2.821e-04  2.212e-06  127.52   <2e-16 ***
+is_republicanTRUE 6.513e-05  3.210e-06   20.29   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.001764 on 1211371 degrees of freedom
+Multiple R-squared:  0.0003398,	Adjusted R-squared:  0.0003389 
+F-statistic: 411.7 on 1 and 1211371 DF,  p-value: < 2.2e-16
+
+[1] "Only year:"
+
+Call:
+lm(formula = lexical ~ year, data = df)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.000445 -0.000349 -0.000301 -0.000245  0.117418 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.568e-02  4.043e-04  -38.79   <2e-16 ***
+year         7.972e-06  2.015e-07   39.57   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.001763 on 1211371 degrees of freedom
+Multiple R-squared:  0.001291,	Adjusted R-squared:  0.00129 
+F-statistic:  1566 on 1 and 1211371 DF,  p-value: < 2.2e-16
+
+[1] "No random effects"
+
+Call:
+lm(formula = lexical ~ is_republican + is_in_senate + is_republican * 
+    year, data = df)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.000561 -0.000355 -0.000297 -0.000220  0.117370 
+
+Coefficients:
+                         Estimate Std. Error t value Pr(>|t|)    
+(Intercept)            -7.494e-03  5.713e-04  -13.12   <2e-16 ***
+is_republicanTRUE      -1.334e-02  8.084e-04  -16.50   <2e-16 ***
+is_in_senateTRUE       -1.005e-04  3.357e-06  -29.93   <2e-16 ***
+year                    3.893e-06  2.846e-07   13.68   <2e-16 ***
+is_republicanTRUE:year  6.681e-06  4.029e-07   16.58   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.001762 on 1211368 degrees of freedom
+Multiple R-squared:  0.002638,	Adjusted R-squared:  0.002635 
+F-statistic: 801.1 on 4 and 1211368 DF,  p-value: < 2.2e-16
+
+[1] "Using a multi-level model with random effect for year"
+
+Call:
+lm(formula = lexical ~ is_republican + is_in_senate * is_republican + 
+    is_in_senate + is_republican * year + (1 | year), data = df)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.000564 -0.000355 -0.000294 -0.000225  0.117377 
+
+Coefficients: (1 not defined because of singularities)
+                                     Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                        -7.743e-03  5.737e-04 -13.498  < 2e-16 ***
+is_republicanTRUE                  -1.276e-02  8.173e-04 -15.608  < 2e-16 ***
+is_in_senateTRUE                   -8.522e-05  4.622e-06 -18.437  < 2e-16 ***
+year                                4.015e-06  2.858e-07  14.050  < 2e-16 ***
+1 | yearTRUE                               NA         NA      NA       NA    
+is_republicanTRUE:is_in_senateTRUE -3.229e-05  6.724e-06  -4.802 1.57e-06 ***
+is_republicanTRUE:year              6.397e-06  4.072e-07  15.712  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.001762 on 1211367 degrees of freedom
+Multiple R-squared:  0.002657,	Adjusted R-squared:  0.002653 
+F-statistic: 645.5 on 5 and 1211367 DF,  p-value: < 2.2e-16
+
+[1] "118th Congress-specific..."
+[1] "Only county religious adherence, House only: "
+
+Call:
+lm(formula = lexical ~ perc_adherents, data = house_df)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.000757 -0.000552 -0.000505 -0.000443  0.063727 
+
+Coefficients:
+                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)    2.554e-04  6.526e-05   3.913 9.14e-05 ***
+perc_adherents 5.555e-04  1.331e-04   4.174 3.01e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.002311 on 15859 degrees of freedom
+  (906 observations deleted due to missingness)
+Multiple R-squared:  0.001097,	Adjusted R-squared:  0.001034 
+F-statistic: 17.42 on 1 and 15859 DF,  p-value: 3.01e-05
+
+[1] "Multi-level for 118th, House only: "
+
+Call:
+lm(formula = lexical ~ is_republican + is_in_senate + is_republican * 
+    is_in_senate + is_republican * perc_adherents, data = house_df)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.000835 -0.000554 -0.000487 -0.000434  0.063669 
+
+Coefficients: (2 not defined because of singularities)
+                                    Estimate Std. Error t value Pr(>|t|)  
+(Intercept)                        2.456e-04  1.033e-04   2.377   0.0174 *
+is_republicanTRUE                  2.125e-05  1.333e-04   0.159   0.8733  
+is_in_senateTRUE                          NA         NA      NA       NA  
+perc_adherents                     4.731e-04  2.102e-04   2.251   0.0244 *
+is_republicanTRUE:is_in_senateTRUE        NA         NA      NA       NA  
+is_republicanTRUE:perc_adherents   1.565e-04  2.716e-04   0.576   0.5646  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.00231 on 15857 degrees of freedom
+  (906 observations deleted due to missingness)
+Multiple R-squared:  0.00154,	Adjusted R-squared:  0.001351 
+F-statistic: 8.152 on 3 and 15857 DF,  p-value: 2.023e-05
+
+[1] "** Redoing with speaker-level grouping **"
+[1] "Single variables"
+[1] "Only party:"
+
+Call:
+lm(formula = lexical ~ is_republican, data = speaker_df)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0004471 -0.0002349 -0.0001285  0.0000651  0.0110175 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       3.409e-04  1.825e-05  18.682  < 2e-16 ***
+is_republicanTRUE 1.062e-04  2.509e-05   4.234 2.42e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.000503 on 1612 degrees of freedom
+Multiple R-squared:  0.011,	Adjusted R-squared:  0.01039 
+F-statistic: 17.93 on 1 and 1612 DF,  p-value: 2.423e-05
+
+[1] "Only chamber:"
+
+Call:
+lm(formula = lexical ~ is_in_senate, data = speaker_df)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0004164 -0.0002398 -0.0001230  0.0000728  0.0109420 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       4.164e-04  1.372e-05  30.347  < 2e-16 ***
+is_in_senateTRUE -1.175e-04  3.386e-05  -3.469 0.000536 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.0005039 on 1612 degrees of freedom
+Multiple R-squared:  0.007411,	Adjusted R-squared:  0.006796 
+F-statistic: 12.04 on 1 and 1612 DF,  p-value: 0.0005355
+
+[1] "Only year:"
+
+Call:
+lm(formula = lexical ~ year, data = speaker_df)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0004966 -0.0002321 -0.0001145  0.0000679  0.0109030 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.620e-02  2.675e-03  -6.055 1.75e-09 ***
+year         8.252e-06  1.330e-06   6.203 7.02e-10 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.0004999 on 1612 degrees of freedom
+Multiple R-squared:  0.02331,	Adjusted R-squared:  0.02271 
+F-statistic: 38.48 on 1 and 1612 DF,  p-value: 7.023e-10
+
+[1] "No random effects"
+
+Call:
+lm(formula = lexical ~ is_republican + is_in_senate + is_republican * 
+    year, data = speaker_df)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0006157 -0.0002261 -0.0000957  0.0000767  0.0109758 
+
+Coefficients:
+                         Estimate Std. Error t value Pr(>|t|)   
+(Intercept)            -6.722e-03  3.979e-03  -1.689  0.09134 . 
+is_republicanTRUE      -1.735e-02  5.327e-03  -3.257  0.00115 **
+is_in_senateTRUE       -1.062e-04  3.323e-05  -3.197  0.00142 **
+year                    3.521e-06  1.978e-06   1.780  0.07530 . 
+is_republicanTRUE:year  8.683e-06  2.649e-06   3.278  0.00107 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.000494 on 1609 degrees of freedom
+Multiple R-squared:  0.04817,	Adjusted R-squared:  0.04581 
+F-statistic: 20.36 on 4 and 1609 DF,  p-value: 2.235e-16
+
+[1] "Using a multi-level model with random effects for state and year"
+
+Call:
+lm(formula = lexical ~ is_republican + is_republican * is_in_senate + 
+    is_in_senate + is_republican * year + (1 | year), data = speaker_df)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0006185 -0.0002244 -0.0000973  0.0000777  0.0109792 
+
+Coefficients: (1 not defined because of singularities)
+                                     Estimate Std. Error t value Pr(>|t|)   
+(Intercept)                        -6.802e-03  3.982e-03  -1.708  0.08779 . 
+is_republicanTRUE                  -1.721e-02  5.333e-03  -3.227  0.00128 **
+is_in_senateTRUE                   -8.520e-05  4.735e-05  -1.799  0.07215 . 
+year                                3.558e-06  1.979e-06   1.798  0.07241 . 
+1 | yearTRUE                               NA         NA      NA       NA   
+is_republicanTRUE:is_in_senateTRUE -4.145e-05  6.647e-05  -0.624  0.53299   
+is_republicanTRUE:year              8.617e-06  2.652e-06   3.249  0.00118 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.000494 on 1608 degrees of freedom
+Multiple R-squared:  0.0484,	Adjusted R-squared:  0.04544 
+F-statistic: 16.36 on 5 and 1608 DF,  p-value: 9.007e-16
+
+[1] "118th Congress-specific..."
+[1] "speaker_df has the following columns: "
+[1] "bio_id"           "lexical"          "is_republican"    "congress_num"    
+[5] "is_in_senate"     "year"             "state"            "state_perc_white"
+[9] "state_perc_black"

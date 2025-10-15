@@ -1,0 +1,92 @@
+[1] "** Loading scdata **"
+[1] "** Loaded data **"
+[1] "Number of rows in df:"
+[1] 1211373
+[1] "Number of rows in lr_df:"
+[1] 1169385
+[1] "NOW REGRESSING ON CLASSIFIER OUTPUT"
+[1] "** Iterating through various models: proportion marked religious **"
+[1] "Single variables"
+
+<table style="text-align:center"><tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="4"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="4" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td colspan="4">lr_label_prop_religious</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td></tr>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">is_republican</td><td>-0.001<sup>***</sup> (0.0002)</td><td></td><td>-1.583<sup>***</sup> (0.062)</td><td>-1.525<sup>***</sup> (0.063)</td></tr>
+<tr><td style="text-align:left">is_in_senate</td><td></td><td></td><td>-0.008<sup>***</sup> (0.0003)</td><td>-0.007<sup>***</sup> (0.0004)</td></tr>
+<tr><td style="text-align:left">year</td><td></td><td>0.0003<sup>***</sup> (0.00002)</td><td>-0.0002<sup>***</sup> (0.00002)</td><td>-0.0002<sup>***</sup> (0.00002)</td></tr>
+<tr><td style="text-align:left">1 | year</td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">is_republicanTRUE:is_in_senate</td><td></td><td></td><td></td><td>-0.003<sup>***</sup> (0.001)</td></tr>
+<tr><td style="text-align:left">is_republicanTRUE:year</td><td></td><td></td><td>0.001<sup>***</sup> (0.00003)</td><td>0.001<sup>***</sup> (0.00003)</td></tr>
+<tr><td style="text-align:left">Constant</td><td>0.070<sup>***</sup> (0.0002)</td><td>-0.448<sup>***</sup> (0.031)</td><td>0.489<sup>***</sup> (0.044)</td><td>0.464<sup>***</sup> (0.044)</td></tr>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>1,169,385</td><td>1,169,385</td><td>1,169,385</td><td>1,169,385</td></tr>
+<tr><td style="text-align:left">R<sup>2</sup></td><td>0.00001</td><td>0.0002</td><td>0.002</td><td>0.002</td></tr>
+<tr><td style="text-align:left">Adjusted R<sup>2</sup></td><td>0.00001</td><td>0.0002</td><td>0.002</td><td>0.002</td></tr>
+<tr><td style="text-align:left">Residual Std. Error</td><td>0.134 (df = 1169383)</td><td>0.134 (df = 1169383)</td><td>0.133 (df = 1169380)</td><td>0.133 (df = 1169379)</td></tr>
+<tr><td style="text-align:left">F Statistic</td><td>11.819<sup>***</sup> (df = 1; 1169383)</td><td>276.071<sup>***</sup> (df = 1; 1169383)</td><td>500.941<sup>***</sup> (df = 4; 1169380)</td><td>408.334<sup>***</sup> (df = 5; 1169379)</td></tr>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="4" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>
+[1] "** Iterating through various models: average classifier probability **"
+[1] "Single variables"
+[1] "No random effects"
+
+<table style="text-align:center"><tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="4"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="4" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td colspan="4">avg_lr_prob</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td></tr>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">is_republican</td><td>-0.002<sup>***</sup> (0.0002)</td><td></td><td>-1.910<sup>***</sup> (0.055)</td><td>-1.869<sup>***</sup> (0.056)</td></tr>
+<tr><td style="text-align:left">is_in_senate</td><td></td><td></td><td>-0.011<sup>***</sup> (0.0002)</td><td>-0.010<sup>***</sup> (0.0003)</td></tr>
+<tr><td style="text-align:left">year</td><td></td><td>0.0003<sup>***</sup> (0.00001)</td><td>-0.0002<sup>***</sup> (0.00002)</td><td>-0.0002<sup>***</sup> (0.00002)</td></tr>
+<tr><td style="text-align:left">1 | year</td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">is_republicanTRUE:is_in_senate</td><td></td><td></td><td></td><td>-0.002<sup>***</sup> (0.0005)</td></tr>
+<tr><td style="text-align:left">is_republicanTRUE:year</td><td></td><td></td><td>0.001<sup>***</sup> (0.00003)</td><td>0.001<sup>***</sup> (0.00003)</td></tr>
+<tr><td style="text-align:left">Constant</td><td>0.105<sup>***</sup> (0.0002)</td><td>-0.555<sup>***</sup> (0.027)</td><td>0.590<sup>***</sup> (0.039)</td><td>0.572<sup>***</sup> (0.039)</td></tr>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>1,169,385</td><td>1,169,385</td><td>1,169,385</td><td>1,169,385</td></tr>
+<tr><td style="text-align:left">R<sup>2</sup></td><td>0.00005</td><td>0.0005</td><td>0.004</td><td>0.004</td></tr>
+<tr><td style="text-align:left">Adjusted R<sup>2</sup></td><td>0.00005</td><td>0.0005</td><td>0.004</td><td>0.004</td></tr>
+<tr><td style="text-align:left">Residual Std. Error</td><td>0.118 (df = 1169383)</td><td>0.118 (df = 1169383)</td><td>0.118 (df = 1169380)</td><td>0.118 (df = 1169379)</td></tr>
+<tr><td style="text-align:left">F Statistic</td><td>58.258<sup>***</sup> (df = 1; 1169383)</td><td>575.135<sup>***</sup> (df = 1; 1169383)</td><td>1,032.166<sup>***</sup> (df = 4; 1169380)</td><td>830.792<sup>***</sup> (df = 5; 1169379)</td></tr>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="4" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>
+[1] "NOW REGRESSING ON KEYWORD-BASED MEASURES"
+[1] "** Iterating through various models **"
+
+<table style="text-align:center"><tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="4"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="4" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td colspan="4">lexical</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td></tr>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">is_republican</td><td>0.0001<sup>***</sup> (0.00000)</td><td></td><td>-0.013<sup>***</sup> (0.001)</td><td>-0.013<sup>***</sup> (0.001)</td></tr>
+<tr><td style="text-align:left">is_in_senate</td><td></td><td></td><td>-0.0001<sup>***</sup> (0.00000)</td><td>-0.0001<sup>***</sup> (0.00000)</td></tr>
+<tr><td style="text-align:left">year</td><td></td><td>0.00001<sup>***</sup> (0.00000)</td><td>0.00000<sup>***</sup> (0.00000)</td><td>0.00000<sup>***</sup> (0.00000)</td></tr>
+<tr><td style="text-align:left">1 | year</td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">is_republicanTRUE:is_in_senate</td><td></td><td></td><td></td><td>-0.00003<sup>***</sup> (0.00001)</td></tr>
+<tr><td style="text-align:left">is_republicanTRUE:year</td><td></td><td></td><td>0.00001<sup>***</sup> (0.00000)</td><td>0.00001<sup>***</sup> (0.00000)</td></tr>
+<tr><td style="text-align:left">Constant</td><td>0.0003<sup>***</sup> (0.00000)</td><td>-0.016<sup>***</sup> (0.0004)</td><td>-0.007<sup>***</sup> (0.001)</td><td>-0.008<sup>***</sup> (0.001)</td></tr>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>1,211,373</td><td>1,211,373</td><td>1,211,373</td><td>1,211,373</td></tr>
+<tr><td style="text-align:left">R<sup>2</sup></td><td>0.0003</td><td>0.001</td><td>0.003</td><td>0.003</td></tr>
+<tr><td style="text-align:left">Adjusted R<sup>2</sup></td><td>0.0003</td><td>0.001</td><td>0.003</td><td>0.003</td></tr>
+<tr><td style="text-align:left">Residual Std. Error</td><td>0.002 (df = 1211371)</td><td>0.002 (df = 1211371)</td><td>0.002 (df = 1211368)</td><td>0.002 (df = 1211367)</td></tr>
+<tr><td style="text-align:left">F Statistic</td><td>411.712<sup>***</sup> (df = 1; 1211371)</td><td>1,565.536<sup>***</sup> (df = 1; 1211371)</td><td>801.084<sup>***</sup> (df = 4; 1211368)</td><td>645.491<sup>***</sup> (df = 5; 1211367)</td></tr>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="4" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>
+[1] "118th Congress-specific..."
+[1] "Only county religious adherence, House only: "
+
+<table style="text-align:center"><tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="2"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="2" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td colspan="2">lexical</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">is_republican</td><td></td><td>0.00002 (0.0001)</td></tr>
+<tr><td style="text-align:left">is_in_senate</td><td></td><td></td></tr>
+<tr><td style="text-align:left">perc_adherents</td><td>0.001<sup>***</sup> (0.0001)</td><td>0.0005<sup>**</sup> (0.0002)</td></tr>
+<tr><td style="text-align:left">is_republicanTRUE:is_in_senate</td><td></td><td></td></tr>
+<tr><td style="text-align:left">is_republicanTRUE:perc_adherents</td><td></td><td>0.0002 (0.0003)</td></tr>
+<tr><td style="text-align:left">Constant</td><td>0.0003<sup>***</sup> (0.0001)</td><td>0.0002<sup>**</sup> (0.0001)</td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>15,861</td><td>15,861</td></tr>
+<tr><td style="text-align:left">R<sup>2</sup></td><td>0.001</td><td>0.002</td></tr>
+<tr><td style="text-align:left">Adjusted R<sup>2</sup></td><td>0.001</td><td>0.001</td></tr>
+<tr><td style="text-align:left">Residual Std. Error</td><td>0.002 (df = 15859)</td><td>0.002 (df = 15857)</td></tr>
+<tr><td style="text-align:left">F Statistic</td><td>17.421<sup>***</sup> (df = 1; 15859)</td><td>8.152<sup>***</sup> (df = 3; 15857)</td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="2" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>
+[1] "** Redoing with speaker-level grouping **"

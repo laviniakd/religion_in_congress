@@ -1,0 +1,7 @@
+CONTEXT: 
+You are tasked with determining whether a given string is paraphrasing or quoting a Bible verse. Output ONLY the information requested.
+
+TASK:
+For the input string, analyze it and determine if it's a Bible verse reference. Print "YES" if it is a Bible verse reference, and "NO" if it is not. Do not explain your answer.
+
+INPUT STRING:

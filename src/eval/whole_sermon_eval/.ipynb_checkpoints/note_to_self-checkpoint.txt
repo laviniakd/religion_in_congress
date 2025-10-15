@@ -1,0 +1,1 @@
+## NOTE: only bm25 has been switched to the whole sermon format

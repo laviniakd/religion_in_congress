@@ -1,0 +1,4 @@
+CONTEXT: 
+You are tasked with determining whether the speech below contains any religious themes or language, broadly construed. Please output "RELIGIOUS" if so and "SECULAR" if not. Do not explain your answer.
+
+SPEECH:

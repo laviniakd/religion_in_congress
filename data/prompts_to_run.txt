@@ -1,0 +1,11 @@
+/home/laviniad/projects/religion_in_congress/src/llm_experiments/prompt_variations/verse_detection/variation_126.verse_detection.2_tasks.txt
+/home/laviniad/projects/religion_in_congress/src/llm_experiments/prompt_variations/verse_detection/variation_123.verse_detection.2_tasks.txt
+/home/laviniad/projects/religion_in_congress/src/llm_experiments/prompt_variations/verse_detection/variation_121.verse_detection.2_tasks.txt
+/home/laviniad/projects/religion_in_congress/src/llm_experiments/prompt_variations/verse_detection/variation_125.verse_detection.2_tasks.txt
+/home/laviniad/projects/religion_in_congress/src/llm_experiments/prompt_variations/verse_detection/variation_120.verse_detection.2_tasks.txt
+/home/laviniad/projects/religion_in_congress/src/llm_experiments/prompt_variations/verse_detection/variation_124.verse_detection.2_tasks.txt
+/home/laviniad/projects/religion_in_congress/src/llm_experiments/prompt_variations/verse_detection/variation_118.verse_detection.2_tasks.txt
+/home/laviniad/projects/religion_in_congress/src/llm_experiments/prompt_variations/verse_detection/variation_122.verse_detection.2_tasks.txt
+/home/laviniad/projects/religion_in_congress/src/llm_experiments/prompt_variations/verse_detection/variation_116.verse_detection.2_tasks.txt
+/home/laviniad/projects/religion_in_congress/src/llm_experiments/prompt_variations/verse_detection/variation_119.verse_detection.2_tasks.txt
+/home/laviniad/projects/religion_in_congress/src/llm_experiments/prompt_variations/verse_detection/variation_117.verse_detection.2_tasks.txt

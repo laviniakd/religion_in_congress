@@ -1,0 +1,9 @@
+meta-llama/Llama-3.2-3B-Instruct
+meta-llama/Llama-3.1-8B-Instruct
+meta-llama/Llama-3.1-70B-Instruct
+mistralai/Mistral-Small-3.1-24B-Instruct-2503
+mistralai/Mistral-Small-24B-Instruct-2501
+mistralai/Ministral-8B-Instruct-2410
+allenai/OLMo-2-0325-32B-Instruct
+allenai/OLMo-2-1124-13B-Instruct
+allenai/OLMo-2-1124-7B-Instruct

@@ -1,0 +1,32 @@
+Answer the following as a seasoned political scientist.
+
+CONTEXT: 
+You are tasked with determining whether a given string is paraphrasing or quoting a Bible verse, then identifying which verse if so.
+
+TASK 1:
+For the input string, analyze it and determine if it's a Bible verse reference. Print "YES" if it is a Bible verse reference, and "NO" if it is not. Do not explain your answer.
+
+TASK 2:
+If the input string is a Bible verse, output the relevant citation (e.g., "John 3:16"). If it is not a Bible verse, output "NOT VERSE". Do not explain your answer.
+
+OUTPUT FORMAT:
+Separate the outputs for 1 and 2 with a newline.
+
+The following examples represent correctly formatted input string-output pairs.
+EXAMPLE INPUT 1:
+It may seem strange that any men should dare to ask a just God’s assistance in wringing their bread from the sweat of other men’s faces but let us judge not that we be not judged.
+
+EXAMPLE OUTPUT:
+Verse
+Genesis 3:19
+
+EXAMPLE INPUT 2:
+The church is a powerful force in our world, and its influence can be felt in many spheres of society.
+
+EXAMPLE OUTPUT 2:
+Not Verse
+NOT VERSE
+
+Output "Verse" if it is a Bible verse reference, and "Not Verse" if it is not. Do not explain your answer.
+
+INPUT STRING:
